@@ -1,0 +1,39 @@
+<!DOCTYPE html>  
+      <html>  
+        <head> 
+            <link rel="stylesheet" href="style.css">
+            </head>
+            <body>
+                <script src="script.js"></script>
+                <div class="split left">
+                  <div class="centered">
+                    <h2>Browse a picture of ingredients...</h2>
+                    <input type="file" accept="image/*" onchange="loadFile(event)">
+                    <p><img id="output" width="200"/></p>
+                   
+                    <input type="submit" value="Submit" onclick = "window.location.href = 'page3.html';">
+
+                    
+                   
+                  </div>
+                </div>
+                
+                <div class="split right">
+                  <div class="centered">
+                    <h2>Select Ingredients Manually</h2>
+                    <form name="form1" action="page4.html" method="get"></form>
+                    <label for="Ingredient 1">Ingredient 1</label>
+           <input type="text" id="id1" name="id1" ><br>
+           <label for="Ingredient 2">Ingredient 2</label>
+           <input type="text" id="id2" name="id2" ><br>
+           <label for="Ingredient 3">Ingredient 3</label>
+           <input type="text" id="id3" name="id3" ><br><br><br>
+                    <input type="submit" value="Submit" onclick = "window.location.href = 'page4.html';" >
+                  </form>
+                    </div>
+                  </div>
+                </div>
+                     
+                </body>
+                </html> 
+                
